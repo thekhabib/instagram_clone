@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+python-decouple = "*"
+pillow = "*"
+djangorestframework-simplejwt = "*"
+psycopg2-binary = "*"
+phonenumbers = "*"
+drf-yasg = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
